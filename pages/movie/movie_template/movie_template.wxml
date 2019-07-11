@@ -1,0 +1,12 @@
+<template name='movie_item'>
+
+  <view class='all'>
+      <image  src='{{poster}}'  class='picture'></image>
+      <view class='text'>
+      <text>片名：{{name}}</text>
+      <text>导演：{{director}}</text>
+      <text>类型：{{type}}</text>
+      <text></text>
+      </view>
+  </view>
+</template>

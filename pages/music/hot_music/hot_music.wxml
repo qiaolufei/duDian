@@ -1,0 +1,9 @@
+<view class='page1'>
+  <image  src="{{postData.poster}}" class='img'></image>
+  <text>歌名：{{postData.name}}</text>
+  <text>歌手：{{postData.singer}}</text>
+  <text>专辑:{{postData.album}}</text>
+</view>
+<view>
+  <text class='jie'>歌词：{{postData.lyric}}</text>
+</view>

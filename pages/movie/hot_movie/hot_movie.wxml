@@ -1,0 +1,9 @@
+<view class='page1'>
+  <image  src="{{postData.poster}}" class='img'></image>
+  <text>片名：{{postData.name}}</text>
+  <text>导演：{{postData.director}}</text>
+  <text>类型:{{postData.type}}</text>
+</view>
+<view>
+  <text class='jie'>电影简介：{{postData.details}}</text>
+</view>

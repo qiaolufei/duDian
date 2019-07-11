@@ -1,0 +1,52 @@
+ {
+    "pages":[
+   
+    "pages/movie/movie",
+    "pages/version/version",
+    "pages/music/music",
+    "pages/novel/novel",
+    "pages/movie/hot_movie/hot_movie",
+    "pages/music/hot_music/hot_music",
+    "pages/novel/hot_novel/hot_novel"
+
+  ],
+
+"tabBar":{
+  "backgroundColor":"#fff",
+  "color": "#a9b7b7",
+  "selectedColor": "#11cd6e",
+  "borderStyle": "light",
+  "list":[
+    {
+      "selectedIconPath": "images/logo/111.png",
+      "iconPath": "images/logo/11.png",
+      "pagePath":"pages/version/version",
+      "text":"推荐"
+    },
+    {
+      "selectedIconPath": "images/logo/222.png",
+      "iconPath": "images/logo/22.png",
+      "pagePath": "pages/movie/movie",
+      "text": "电影"
+    },
+    {
+      "selectedIconPath": "images/logo/333.png",
+      "iconPath": "images/logo/33.png",
+      "pagePath": "pages/music/music",
+      "text": "音乐"
+    },
+    {
+      "selectedIconPath": "images/logo/444.png",
+      "iconPath": "images/logo/44.png",
+      "pagePath": "pages/novel/novel",
+      "text": "书籍"
+    }
+  ]
+},
+
+"window": {
+  "navigationBarBackgroundColor": "#a8a8a8",
+  "navigationBarTitleText": "度点",
+  "navigationBarTextStyle": "#ffffff"
+}
+ }

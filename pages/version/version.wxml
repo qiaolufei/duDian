@@ -1,0 +1,35 @@
+<view class='post'>
+
+<view class="nav-header"> 
+    <view class="search"> 
+        <view>
+            <input class="search-input" placeholder="请输入" auto-focus
+            bindinput="bindInput"  bindchange="bindchange" value="{{inputValue}}"/>
+        </view>
+        <button class="clearInput" style="display:inline-block" bindtap="clearInput">×</button>
+        <button  style="display:inline-block" bindtap="setSearchStorage">搜索</button>
+    </view>
+  </view> 
+  
+  <view class='post1' bindtap='onTap4'>
+    <text class='title1'>正在热播</text>
+    <image class="image1" src='/images/movie/fl3.jpg'></image> 
+    <text>《复仇者联盟3：无限战争》</text>
+    <text>剧情简介：该电影是复仇者联盟系列电影的第三部，是漫威电影宇宙的第十九部电影，本片将与《银河护卫队2》剧情连接......</text>
+  </view>
+
+  <view class="post2"    bindtap='onTap5'>
+    <text class='title2'>流行单曲</text>
+    <image class='image2' src='/images/music/mu1.jpg'></image>
+    <text>《等你下课》</text>
+    <text>音乐简介：是由周杰伦作词、作曲，周杰伦与杨瑞代共同演唱的一首歌曲。歌曲主打校园纯情风，歌词则阐述年轻人暗恋女孩，苦苦追求、每天等对方下课的心情</text>
+  </view>
+
+  <view class="post3"     bindtap='onTap6'>
+    <text class='title3'>新书速递</text>
+    <image class='image3' src='/images/novel/no1.jpg'></image>
+    <text>《给孩子的未来脑计划》</text>
+    <text>内容简介：如何让孩子变得更聪？ 怎么才能让孩子集中注意力？ 孩子爱发脾气怎么办？·如何让孩子养成好习惯？</text>
+  </view>
+
+</view>

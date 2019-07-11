@@ -1,0 +1,12 @@
+<template name='music_item'>
+
+  <view class='all'>
+      <image  src='{{poster}}'  class='picture'></image>
+      <view class='text'>
+      <text>歌名：{{name}}</text>
+      <text>歌手：{{singer}}</text>
+      <text>专辑：{{album}}</text>
+      <text></text>
+      </view>
+  </view>
+</template>

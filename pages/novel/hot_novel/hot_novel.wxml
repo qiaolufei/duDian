@@ -1,0 +1,19 @@
+<view class='page1'>
+  <image  src="{{postData.poster}}" class='img'></image>
+  <text>书名：{{postData.title}}</text>
+  <text decode="{{true}}">作者：{{postData.author}}</text>
+  <text>出版社:{{postData.press}}</text>
+</view>
+<view>
+  <text class='jie'>内容简介：{{postData.content}}</text>
+</view>
+
+  <!--评论盒子-->
+  <view class="cf-bg" catchtap="cemojiCfBg" style="display:{{cfBg ? 'block' : 'none'}}"></view>
+  <view class="comment-fixed">
+    <view class="cf-box">
+      <view class="emoji iconfont icon-emoji" catchtap="emojiShowHide"></view>
+      <textarea class="cf-content" bindfocus="textAreaFocus" maxlength="200" bindblur="textAreaBlur" auto-height value="{{content}}" placeholder="我要评论" />
+      <text class="cf-send touch-active" bindtap="send">发表</text>
+    </view>
+     </view>

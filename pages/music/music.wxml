@@ -1,0 +1,9 @@
+<import src="music_template/music_template.wxml" />
+
+<view class='post1' > 
+  <block wx:for="{{postList}}" wx:key="key" wx:for-item="item" wx:for-index="idx">
+        <view catchtap="onPostTap" data-postId="{{item.postId}}">
+             <template is="music_item" data="{{...item}}"></template>
+        </view>
+  </block> 
+</view>

@@ -1,0 +1,28 @@
+.post{
+    display: flex;
+    flex-direction:column; 
+}
+
+.all{
+    display: flex;
+    flex-direction:row;
+    margin-top:20rpx;
+    margin-bottom:10rpx;
+    margin-left: 0rpx;
+    background-color:#bc7853;
+    border-bottom: 1px solid #bc7853;
+    border-top: 1px solid #bc7853;
+    padding-bottom: 0px;
+}
+
+.text{
+    display: flex;
+    flex-direction:column;
+    font-size: 35rpx;
+    margin-left: 40rpx;
+}
+
+.picture{
+  width: 150rpx;
+  height: 225rpx;
+}
